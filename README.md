@@ -1,29 +1,14 @@
 # Stateface::Rails
 
-TODO: Write a gem description
+In application.css
+    
+    *= require propublica/stateface
 
-## Installation
 
-Add this line to your application's Gemfile:
+    <p class='propublica-stateface'><%= 'ma'.to_stateface %></p>
 
-    gem 'stateface-rails'
+or
 
-And then execute:
+    <%= stateface_tag('ma') %>
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install stateface-rails
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+or use font-face: StateFace however you'd like
